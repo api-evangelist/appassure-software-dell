@@ -1,8 +1,24 @@
 aid: appassure-software-dell
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/appassure-software-dell.png
 name: AppAssure Software (Dell)
-description: 'AppAssure Software (Dell) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: ai-infrastructure. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'AppAssure Software was a data-protection vendor (backup, replication, and recovery for
+  physical, virtual, and cloud systems) funded by Bain Capital Ventures before Dell acquired it in 2012.
+  Its flagship AppAssure 5 platform shipped a bundled service-management REST API for programmatically
+  driving backup, replication, and recovery from the Management Console. The product line has since been
+  retired and folded into what is now Quest Rapid Recovery; there is no active public developer portal,
+  hosted API host, or machine-readable specification. This profile is retained for network completeness
+  and lineage rather than as a live, integrable API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/appassure-software-dell/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -15,10 +31,20 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Ai Infrastructure
+- Backup
+- Disaster Recovery
+- Data Protection
+- Replication
+- Storage
+- Dell
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
