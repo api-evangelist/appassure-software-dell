@@ -59,3 +59,7 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-status: acquired
+x-acquired-by: dell-technologies
+x-acquired-date: '2012-02-24'
+x-status-source: https://www.dell.com/learn/uk/en/ukcorp1/secure/2012-02-24-dell-acquisition-appassure
